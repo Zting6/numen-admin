@@ -1,6 +1,5 @@
 <h1>numen-admin</h1>
 
-
 **English** | [中文](./README.md)
 
 ## Introduce
@@ -9,22 +8,14 @@ NUMEN Admin is a Web page for a cyberattack defense system built on Vue 3 and Ty
 
 ## Install and use
 
-  
-  
 ```bash
-pnpm run install
+pnpm install
 ```
-  
-  
+
 This command installs the project's dependencies.
 
-
-  
-  
 ```bash
 pnpm run dev
 ```
-  
-  
-This command runs the project.
 
+This command runs the project.
