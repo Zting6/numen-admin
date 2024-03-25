@@ -46,9 +46,9 @@ const elBodyStyle = computed((): CSSProperties => {
           </el-card>
 
           <el-card class="box-card fcard" :body-style="{
-            display: 'flex',
-            alignItems: 'center'
-          }">
+    display: 'flex',
+    alignItems: 'center'
+  }">
 
             <el-card class="box-card card" shadow="never" style="border: none;"
               :body-style="{ width: '210px', height: '80px', display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', borderRight: '3px solid rgb(247 247 247)', marginRight: '10px' }">
@@ -58,8 +58,8 @@ const elBodyStyle = computed((): CSSProperties => {
 
             </el-card>
             <el-card class="box-card" shadow="never" style="border: none;" :body-style="{
-              width: '220px'
-            }">
+    width: '220px'
+  }">
               <h1 class="cardTitle">今日拦截独立IP</h1>
               <span class="cardOrangeSpan">159</span>
 
@@ -69,9 +69,9 @@ const elBodyStyle = computed((): CSSProperties => {
         </div>
         <div class="fl_bottom">
           <el-card class="box-card fcard" style="width: 100%; margin-right: 2vw;" :body-style="{
-            display: 'flex',
-            alignItems: 'center'
-          }">
+    display: 'flex',
+    alignItems: 'center'
+  }">
             <el-card class="bosx-card card" shadow="never" style="border: none;" :body-style="elBodyStyle">
 
               <h1 class="cardTitle">4xx错误数量</h1>
@@ -113,12 +113,12 @@ const elBodyStyle = computed((): CSSProperties => {
           <h1 class="cardmainTitle">30天访问来源地区</h1>
 
           <el-card class="box-card" style="" :body-style="{
-            width: '',
-            height: '460px',
-            display: 'flex',
-            alignItems: 'center'
+    width: '',
+    height: '460px',
+    display: 'flex',
+    alignItems: 'center'
 
-          }">
+  }">
             <EchartsComponent />
 
             <RowChart />

@@ -90,21 +90,24 @@ onBeforeUnmount(() => {
       </div>
       <div class="login-box">
         <div class="login-form">
-          <avatar class="avatar" />
+          <!-- <avatar class="avatar" /> -->
           <Motion>
             <!-- <h2 class="outline-none">{{ title }}</h2> -->
-            <h2 class="outline-none">数字梦想家</h2>
+            <!-- <h2 class="outline-none">数字梦想家</h2> -->
+            <img src="../../.././public/numen.png" style="width: 91px; margin: 0 auto" alt="">
+            <h2 class="outline-none">数梦流量控制中心</h2>
           </Motion>
+
 
           <el-form ref="ruleFormRef" :model="ruleForm" :rules="loginRules" size="large">
             <Motion :delay="100">
               <el-form-item :rules="[
-                {
-                  required: true,
-                  message: '请输入账号',
-                  trigger: 'blur'
-                }
-              ]" prop="username">
+      {
+        required: true,
+        message: '请输入账号',
+        trigger: 'blur'
+      }
+    ]" prop="username">
                 <el-input clearable v-model="ruleForm.username" placeholder="账号" :prefix-icon="useRenderIcon(User)" />
               </el-form-item>
             </Motion>
