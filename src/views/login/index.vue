@@ -104,7 +104,11 @@ onBeforeUnmount(() => {
               <el-form-item :rules="[
                 {
                   required: true,
+<<<<<<< HEAD
                   message: '请输入账号',
+=======
+                  message: '请输入您的账号',
+>>>>>>> 80fa88aec153973f115e814f6661fd8aa6da2009
                   trigger: 'blur'
                 }
               ]" prop="username">
